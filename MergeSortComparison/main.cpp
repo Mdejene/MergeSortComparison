@@ -20,13 +20,13 @@ int * GenerateRandomArray(size_t amount){
     return ptr;
 }
 
-void printList(int data[], int len){
-    for(int i = 0; i < len; i++){
+void printList(int data[], size_t len){
+    for(size_t i = 0; i < len; i++){
         std::cout<< data[i] << "\n";
     }
 }
 int main(int argc, const char * argv[]) {
-    int len = 10000000;
+    size_t len = 10000000;
     int*t1  = GenerateRandomArray(len);
     int*t2  = GenerateRandomArray(len);
     

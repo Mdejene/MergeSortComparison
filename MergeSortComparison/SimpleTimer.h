@@ -8,10 +8,8 @@
 
 #ifndef MergeSorts_SimpleTimer_h
 #define MergeSorts_SimpleTimer_h
-#include <assert.h>
-#include <CoreServices/CoreServices.h>
-#include <mach/mach.h>
 #include <mach/mach_time.h>
+
 static uint64_t __start__;
 static mach_timebase_info_data_t __timebase_info__;
 
